@@ -1,0 +1,29 @@
+{
+  "name": "angular-gray",
+  "main": "angular-gray.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bitflower/angular-gray",
+  "authors": [
+    "Matthias Max <matthias.max@bitflower.net>"
+  ],
+  "description": "Angular wrapper for Karl Horky \"gray\" jQuery plugin for making images grayscale.",
+  "keywords": [
+    "grayscale",
+    "image",
+    "cross",
+    "browser",
+    "angular",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gray": "~1.4.2"
+  }
+}

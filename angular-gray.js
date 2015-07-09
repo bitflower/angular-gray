@@ -15,10 +15,6 @@
     app.directive('grayscale', [function() {
         return {
             restrict: 'A',
-            scope: {
-                grayscale: '=',
-                ngSrc: '@'
-            },
             link: function(scope, element, attrs) {
 
                 // Set class
